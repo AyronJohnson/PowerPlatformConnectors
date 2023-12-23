@@ -8,7 +8,7 @@ Connect to School Data Sync V2 to upload school and roster information, manage y
 
 ## Prerequisites
 
-Create an app in the tenant's Azure Active Directory with Edu permissions for rostering.​
+Create an app in the tenant's Azure Active Directory with Edu permissions for rostering.
 
 ## Supported Operations
 
@@ -16,21 +16,24 @@ Create an app in the tenant's Azure Active Directory with Edu permissions for ro
 
 Get the Delegated Token to communicate with School Data Sync.
 
-### GetDataconnectorList
+### CheckValidationResult
 
-Get the DataConnector list.
+Check to see if the validation result of the uploaded CSV files returned errors.
 
 ### CallGetuploadsession
 
 Get the session for the CSV file upload.
 
+### GetInboundFlow
+Gets the inbound flow by id found in the School Data Sync configuration.
+
+### GetDataconnectorList
+
+Get the DataConnector list.
+
 ### CallValidate
 
 Call the operation to validate the uploaded CSV files.
-
-### CheckValidationResult
-
-Check to see if the validation result of the uploaded CSV files returned errors.
 
 ## Obtaining Credentials
 

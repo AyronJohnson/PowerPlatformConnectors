@@ -1,7 +1,8 @@
 {
   "properties": {
-    "capabilities": [],
     "connectionParameters": {},
+    "iconBrandColor": "#7719AA",
+    "capabilities": [],
     "policyTemplateInstances": [
       {
         "templateId": "setheader",
@@ -12,10 +13,11 @@
           "x-ms-apimTemplateParameter.existsAction": "override",
           "x-ms-apimTemplate-policySection": "Request",
           "x-ms-apimTemplate-operationName": [
-            "CheckValidationResult",
-            "CallGetuploadsession",
+            "GetInboundFlow",
             "GetDataconnectorList",
-            "CallValidate"
+            "CallGetuploadsession",
+            "CallValidate",
+            "CheckValidationResult"
           ]
         }
       },
@@ -41,7 +43,6 @@
       }
     ],
     "publisher": "Microsoft",
-    "stackOwner": "Microsoft",
-    "iconBrandColor": "#7719AA"
+    "stackOwner": "Microsoft"
   }
 }
